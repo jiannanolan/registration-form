@@ -12,65 +12,67 @@
 
 <body>
 
-  <div class="max-length">
-    <h1>Want to go to Mars?</h1>
-    <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
-  </div>
+  <div class="grid">
+    <div class="unit max-length">
+      <h1>Want to go to Mars?</h1>
+      <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+    </div>
 
-  <div>
-  <p>Personal details</p>
-  </div>
+    <div class="unit">
+      <p>Personal details</p>
+    </div>
 
-  <div>
-    <form method="POST" action="https://formspree.io/nola0129@algonquinlive.com">
-      <div>
-        <label for="name">Name</label>
-        <input id="name" required>
-      </div>
+    <div class="unit">
+      <form method="POST" action="https://formspree.io/nola0129@algonquinlive.com">
+        <div>
+          <label for="name">Name</label>
+          <input id="name" required>
+        </div>
 
-      <div>
-        <label for="age">Age</label>
-        <input id="age" required>
-      </div>
+        <div class="unit">
+          <label for="age">Age</label>
+          <input id="age" required>
+        </div>
 
-      <div>
-        <label for="email">Email</label>
-        <input id="email" type="email" placeholder="me@me" required>
-      </div>
+        <div class="unit">
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="me@me" required>
+        </div>
 
-      <div>
-        <label for="physical-fitness">Physical fitness</label>
-        <select id="physical-fitness">
-          <option>Super-human</option>
-          <option>Fit as a fiddle</option>
-          <option>Not terribly strong</option>
-          <option>A little couch-potato-y</option>
-        </select>
-      </div>
+        <div class="unit">
+          <label for="physical-fitness">Physical fitness</label>
+          <select id="physical-fitness">
+            <option>Super-human</option>
+            <option>Fit as a fiddle</option>
+            <option>Not terribly strong</option>
+            <option>A little couch-potato-y</option>
+          </select>
+        </div>
 
-      <div>
-        <label for="address">Address</label>
-        <textarea id="address" required></textarea>
-      </div>
+        <div class="unit">
+          <label for="address">Address</label>
+          <textarea id="address" required></textarea>
+        </div>
 
-      <div>
-        <p>Mission statement</p>
-      </div>
+        <div class="unit">
+          <p>Mission statement</p>
+        </div>
 
-      <div>
-        <label for="mars"> Why do you want to go to Mars?</label>
-        <textarea id="mars" required></textarea>
-      </div>
+        <div class="unit">
+          <label for="mars"> Why do you want to go to Mars?</label>
+          <textarea id="mars" required></textarea>
+        </div>
 
-      <div>
-        <button class="btn" type="submit">Register for the trip!</button>
-      </div>
+        <div class="unit">
+          <button class="btn" type="submit">Register for the trip!</button>
+        </div>
 
-      <div>
-        <p>Request to join the mission</p>
-      </div>
+        <div class="unit">
+          <p>Request to join the mission</p>
+        </div>
 
-    </form>
+      </form>
+    </div>
   </div>
 
 </body>
